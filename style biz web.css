@@ -752,3 +752,24 @@ section {
   --webkit-appearance: none;
   appearance: none;
 }
+@media (max-width:768px) {
+  .dialog__wrapper {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    display: flex;
+    line-height: 1.4;
+  
+}
+.dialog__wrapper img {
+  object-fit: contain;
+  float: center;
+  margin: 15px;
+  max-height: 200px;
+  max-width: 95px;
+}
+
+
+}
